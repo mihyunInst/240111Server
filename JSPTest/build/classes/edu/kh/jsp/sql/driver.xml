@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>driver.xml file 입니다.</comment>
+	
+	<entry key="driver">oracle.jdbc.driver.OracleDriver</entry>
+	
+	<!-- 각자 컴퓨터에 설치된 DB(18c) -->
+	<entry key="url">jdbc:oracle:thin:@localhost:1521:XE</entry>
+	
+	<!-- workbook 계정 -->
+	<entry key="user">workbook</entry>
+	<entry key="pw">workbook</entry>
+	
+	<!-- ojdbc10.jar 파일 WEB-INF 의 lib 폴더에 꼭 추가하기!! 
+		 JDBC 드라이버를 사용하기 위해서는 ojdbc.jar 파일을 
+		 WEB-INF/lib 폴더에 추가해야함.
+		 
+		 
+		 
+	-->
+	
+	
+</properties>
+
+
+
+
+
